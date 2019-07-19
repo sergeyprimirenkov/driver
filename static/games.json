@@ -1,0 +1,17 @@
+{
+    "games": [
+    {
+        "id": 1,
+        "title": "Job Simulator",
+        "description": "In a world where robots have replaced all human jobs, step into the 'Job Simulator' to learn what it was like 'to job'.",
+        "image": "./images/job_simulator.jpg",
+        "category": "htc"
+    }
+    {
+        "id": 2,
+        "title": "Space Pirate Trainer",
+        "description": "Space Pirate Trainer is the official trainer for wannabe space pirates in VR. Pick up your blasters, put on your sneakers, and dance your way into the Space Pirate Trainer hall of fame.",
+        "category": "htc"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "driver",
+  "static": {
+    "public": "dist",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "alias": "vue-example",
+  "files": [
+    "dist"
+  ]
+}
