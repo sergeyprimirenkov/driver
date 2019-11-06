@@ -570,6 +570,14 @@
     "@babel/helper-regex" "^7.4.4"
     regexpu-core "^4.5.4"
 
+"@babel/polyfill@^7.4.4":
+  version "7.7.0"
+  resolved "https://registry.yarnpkg.com/@babel/polyfill/-/polyfill-7.7.0.tgz#e1066e251e17606ec7908b05617f9b7f8180d8f3"
+  integrity sha512-/TS23MVvo34dFmf8mwCisCbWGrfhbiWZSwBo6HkADTBhUa2Q/jWltyY/tpofz/b6/RIhqaqQcquptCirqIhOaQ==
+  dependencies:
+    core-js "^2.6.5"
+    regenerator-runtime "^0.13.2"
+
 "@babel/preset-env@^7.0.0 < 7.4.0":
   version "7.3.4"
   resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.3.4.tgz#887cf38b6d23c82f19b5135298bdb160062e33e1"
@@ -666,6 +674,20 @@
     esutils "^2.0.2"
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
+
+"@chenfengyuan/create-vue-component@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@chenfengyuan/create-vue-component/-/create-vue-component-1.1.0.tgz#fde9b8af8d9d2812c8ea64cb50a138f43bb3709d"
+  integrity sha512-TW/HVptQa/3Hms1FZPln2UbWuQudUKbbKnEGhApjA/GMIfQ41Lt3SRaLwSEkOJozVIbXllAA5RAFF9zTqeIsqg==
+  dependencies:
+    is-vue-component "^1.0.0"
+
+"@chenfengyuan/vue-carousel@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@chenfengyuan/vue-carousel/-/vue-carousel-1.0.2.tgz#57c845347d8a310263b29765f45d67d2ff482059"
+  integrity sha512-WiXLSj7iVZCkO8tP2H/1qHTeisvae4lYET4XxWzhSLENjVN7hH/NDrket8A9mh20rj72xAI/UV8imGbrpQIWMA==
+  dependencies:
+    "@chenfengyuan/create-vue-component" "^1.1.0"
 
 "@intervolga/optimize-cssnano-plugin@^1.0.5":
   version "1.0.6"
@@ -4526,6 +4548,11 @@ is-glob@^4.0.0:
   dependencies:
     is-extglob "^2.1.1"
 
+is-non-null-object@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/is-non-null-object/-/is-non-null-object-1.0.0.tgz#80dae23beb02f995e435a2ff8d491d4b17413e95"
+  integrity sha512-MYBGKRSoNifYx3aoV+TNrUieiAFkdZLXCz5OoiPpArtQv9WWiDwgMXZMeC8bPN7I0CsYpgZxg3C4wjljqggn8w==
+
 is-number@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/is-number/-/is-number-3.0.0.tgz#24fd6201a4782cf50561c810276afc7d12d71195"
@@ -4609,6 +4636,13 @@ is-typedarray@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/is-typedarray/-/is-typedarray-1.0.0.tgz#e479c80858df0c1b11ddda6940f96011fcda4a9a"
   integrity sha1-5HnICFjfDBsR3dppQPlgEfzaSpo=
+
+is-vue-component@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/is-vue-component/-/is-vue-component-1.0.0.tgz#eeecef5d02edf5c8ac48c79157b13489feecf3c5"
+  integrity sha512-frTAznlMCFMghK3mn262vQwPacdac/RqIdI7yzvQ9kiaktUIzocQ7xNt0xOj6C5Q61uHJgzQsScwmY8MwG4/sA==
+  dependencies:
+    is-non-null-object "^1.0.0"
 
 is-windows@^1.0.2:
   version "1.0.2"
@@ -4947,9 +4981,9 @@ lodash.uniq@^4.5.0:
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
 lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0:
-  version "4.17.11"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
-  integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
+  version "4.17.15"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
 log-symbols@^2.2.0:
   version "2.2.0"
@@ -8031,6 +8065,11 @@ vue-eslint-parser@^5.0.0:
     espree "^4.1.0"
     esquery "^1.0.1"
     lodash "^4.17.11"
+
+vue-flash-message@^0.7.2:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/vue-flash-message/-/vue-flash-message-0.7.2.tgz#0668d6fa9fc70c65fd5c6ec246a415786960c34d"
+  integrity sha512-swOK9PxlWKzt1zzAMJX4YMU2O3kS0JznbwLy8burtKK2vibYc7ODRiEdAVnxRDQ09TG4tElVeO3hwwGDxQktaw==
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.3"
