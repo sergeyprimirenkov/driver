@@ -570,6 +570,14 @@
     "@babel/helper-regex" "^7.4.4"
     regexpu-core "^4.5.4"
 
+"@babel/polyfill@^7.4.4":
+  version "7.12.1"
+  resolved "https://registry.yarnpkg.com/@babel/polyfill/-/polyfill-7.12.1.tgz#1f2d6371d1261bbd961f3c5d5909150e12d0bd96"
+  integrity sha512-X0pi0V6gxLi6lFZpGmeNa4zxtwEmCs42isWLNjZZDE0Y8yVfgu0T2OAHlzBbdYlqbW/YXVvoBHpATEM+goCj8g==
+  dependencies:
+    core-js "^2.6.5"
+    regenerator-runtime "^0.13.4"
+
 "@babel/preset-env@^7.0.0 < 7.4.0":
   version "7.3.4"
   resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.3.4.tgz#887cf38b6d23c82f19b5135298bdb160062e33e1"
@@ -666,6 +674,20 @@
     esutils "^2.0.2"
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
+
+"@chenfengyuan/create-vue-component@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@chenfengyuan/create-vue-component/-/create-vue-component-1.1.0.tgz#fde9b8af8d9d2812c8ea64cb50a138f43bb3709d"
+  integrity sha512-TW/HVptQa/3Hms1FZPln2UbWuQudUKbbKnEGhApjA/GMIfQ41Lt3SRaLwSEkOJozVIbXllAA5RAFF9zTqeIsqg==
+  dependencies:
+    is-vue-component "^1.0.0"
+
+"@chenfengyuan/vue-carousel@^1.0.2":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@chenfengyuan/vue-carousel/-/vue-carousel-1.0.5.tgz#3c030f49b5a75e5b55c07af8d631217c3f97bff5"
+  integrity sha512-70Q2VxlTimOLaCPyjDmDIDr0fD5O1ENfBUd4/5IH2uw6nhusCy1HDPHNi9nLw2QjDwAI4IIYQtyLhF8nkej5qA==
+  dependencies:
+    "@chenfengyuan/create-vue-component" "^1.1.0"
 
 "@intervolga/optimize-cssnano-plugin@^1.0.5":
   version "1.0.6"
@@ -4014,9 +4036,9 @@ hex-color-regex@^1.1.0:
   integrity sha512-l9sfDFsuqtOqKDsQdqrMRk0U85RZc0RtOR9yPI7mRVOa4FsR/BVnZ0shmQRM96Ji99kYZP/7hn1cedc1+ApsTQ==
 
 highlight.js@^9.6.0:
-  version "9.15.6"
-  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.15.6.tgz#72d4d8d779ec066af9a17cb14360c3def0aa57c4"
-  integrity sha512-zozTAWM1D6sozHo8kqhfYgsac+B+q0PmsjXeyDrYIHHcBN0zTVT66+s2GW1GZv7DbyaROdLXKdabwS/WqPyIdQ==
+  version "9.18.5"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.18.5.tgz#d18a359867f378c138d6819edfc2a8acd5f29825"
+  integrity sha512-a5bFyofd/BHCX52/8i8uJkjr9DYwXIPnM/plwI6W7ezItLGqzt7X2G2nXuYSfsIJdkwwj/g9DG1LkcGJI/dDoA==
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
@@ -4526,6 +4548,11 @@ is-glob@^4.0.0:
   dependencies:
     is-extglob "^2.1.1"
 
+is-non-null-object@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/is-non-null-object/-/is-non-null-object-1.0.0.tgz#80dae23beb02f995e435a2ff8d491d4b17413e95"
+  integrity sha512-MYBGKRSoNifYx3aoV+TNrUieiAFkdZLXCz5OoiPpArtQv9WWiDwgMXZMeC8bPN7I0CsYpgZxg3C4wjljqggn8w==
+
 is-number@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/is-number/-/is-number-3.0.0.tgz#24fd6201a4782cf50561c810276afc7d12d71195"
@@ -4609,6 +4636,13 @@ is-typedarray@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/is-typedarray/-/is-typedarray-1.0.0.tgz#e479c80858df0c1b11ddda6940f96011fcda4a9a"
   integrity sha1-5HnICFjfDBsR3dppQPlgEfzaSpo=
+
+is-vue-component@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/is-vue-component/-/is-vue-component-1.0.0.tgz#eeecef5d02edf5c8ac48c79157b13489feecf3c5"
+  integrity sha512-frTAznlMCFMghK3mn262vQwPacdac/RqIdI7yzvQ9kiaktUIzocQ7xNt0xOj6C5Q61uHJgzQsScwmY8MwG4/sA==
+  dependencies:
+    is-non-null-object "^1.0.0"
 
 is-windows@^1.0.2:
   version "1.0.2"
@@ -6585,6 +6619,11 @@ regenerator-runtime@^0.13.2:
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.2.tgz#32e59c9a6fb9b1a4aff09b4930ca2d4477343447"
   integrity sha512-S/TQAZJO+D3m9xeN1WTI8dLKBBiRgXBlTJvbWjCThHWZj9EvHK70Ff50/tYj2J/fvBY6JtFVwRuazHN2E7M9BA==
 
+regenerator-runtime@^0.13.4:
+  version "0.13.7"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.7.tgz#cac2dacc8a1ea675feaabaeb8ae833898ae46f55"
+  integrity sha512-a54FxoJDIr27pgf7IgeQGxmqUNYrcV338lf/6gH456HZ/PhX+5BcwHXG9ajESmwe6WRO0tAzRUrRmNONWgkrew==
+
 regenerator-transform@^0.13.4:
   version "0.13.4"
   resolved "https://registry.yarnpkg.com/regenerator-transform/-/regenerator-transform-0.13.4.tgz#18f6763cf1382c69c36df76c6ce122cc694284fb"
@@ -8031,6 +8070,11 @@ vue-eslint-parser@^5.0.0:
     espree "^4.1.0"
     esquery "^1.0.1"
     lodash "^4.17.11"
+
+vue-flash-message@^0.7.2:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/vue-flash-message/-/vue-flash-message-0.7.2.tgz#0668d6fa9fc70c65fd5c6ec246a415786960c34d"
+  integrity sha512-swOK9PxlWKzt1zzAMJX4YMU2O3kS0JznbwLy8burtKK2vibYc7ODRiEdAVnxRDQ09TG4tElVeO3hwwGDxQktaw==
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.3"
